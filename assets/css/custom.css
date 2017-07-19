@@ -1,0 +1,114 @@
+/*HEADER CSS*/
+.navbar {
+	margin-bottom: 0;
+	border-top: 5px solid #009999;
+	border-radius: 0;
+}
+
+.navbar .nav > li > a {
+    color: #009999 !important;
+}
+
+.navbar .nav > li > a:hover{
+  text-decoration: none;
+	background-color: transparent !important;
+	border-bottom: 5px solid #009999;
+}
+
+.navbar .nav .active {
+  border-bottom: 5px solid #009999;
+}
+
+.subheading > h1, .heading > h1 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #009999;
+	background-color: #F8F8F8;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-style: solid;
+	border-width: 5px;
+	border-left: none;
+	border-right: none;
+}
+
+.subheading > h1 {
+	border-top: 5px solid !important;
+}
+
+.heading > h1 {
+		border-top: none;
+}
+
+/*FOOTER CSS*/
+.footer {
+  position: relative;
+	height: 100px;
+	clear: both;
+  background-color: #F8F8F8;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  margin-bottom:0px;
+	padding-top: 12.5px;
+	margin-top: 20px;
+}
+
+
+/*CONTACT CSS*/
+.contact-details > h4 > a {
+  color: #009999;
+}
+
+/*BUTTON CSS*/
+.btn {
+	border-radius: 0px;
+}
+
+.btn-primary {
+    background-color: #009999;
+    border-color: #009999;
+}
+
+/*TEXT FORMAT CSS*/
+p {
+	font-size: 18px;
+	line-height: 2em;
+	font-weight: 200 !important;
+	}
+
+h4 {
+	line-height: 2em;
+	font-weight: 200;
+	color: #009999;
+
+}
+
+blockquote {
+  border: none;
+}
+
+/*SERVICES CSS*/
+.services li {
+    display: block;
+}
+
+.services li:before {
+  content: "\e103";
+  font-family: 'Glyphicons Halflings';
+  font-size: 18px;
+  margin: 0 auto;
+  float: left;
+  margin-top: 4px;
+  margin-left: -50px;
+  color: #CCCCCC;
+}
+
+a {
+	color: #009999;
+}
+
+.car-text {
+	font-size: 30px;
+	color: white;
+}
